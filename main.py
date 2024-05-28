@@ -1,7 +1,4 @@
-class Personnel():
-    def conges(self):
-        print("est en conges")
-class Enseignat(conges):
+class Enseignat():
 #Premier class enseignat et le constructeur par defaut
         def __int__(self, nom=None, prenom=None, nbre_heur_annee=None):
             self.nom = nom
